@@ -1,0 +1,23 @@
+{
+    "name": "@powerjson/powerjson",
+    "version": "1.0.0-alpha",
+    "description": "Powerjson is json's improved data format.",
+    "main": "index.node.js",
+    "scripts": {
+        "build": "pegjs --cache parser/pjson.node.pegjs && pegjs --cache parser/pjson.browser.pegjs",
+        "start": "npm run build && npm run test",
+        "test": "node ./test/test.js"
+    },
+    "keywords": [
+        "json",
+        "dataformat",
+        "data",
+        "format",
+        "powerjson"
+    ],
+    "author": "Bill Dong",
+    "license": "MIT",
+    "dependencies": {
+        "sync-request": "^6.1.0"
+    }
+}
