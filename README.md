@@ -9,19 +9,24 @@ It supports **single quoted strings**, **multi-line strings**, **comments**, **o
 </div>
 
 ### Simple Demo
-**PowerJSON:**
 ```javascript
 {
     helloText: 'hello world',
+
     MultiLineText: `
         Welcome
         to
         PowerJSON!
     `,
+
     myFile: new File('./file.txt'),
+
     importPJSONFile: new PJSON('./index2.pjson'),
+
     getFile: new GET('http://www.powerjson.org'),
+
     tenDaySeconds: 60 * 60 * 24 * 10
+    
     // here is the comment!
     /* comment2 */
 }
