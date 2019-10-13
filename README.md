@@ -8,6 +8,25 @@
 It supports **single quoted strings**, **multi-line strings**, **comments**, **operators**, **import files**, **import PJSON files**, and more.
 </div>
 
+### Simple Demo
+**PowerJSON:**
+```javascript
+{
+    helloText: 'hello world',
+    MultiLineText: `
+        Welcome
+        to
+        PowerJSON!
+    `,
+    myFile: new File('./file.txt'),
+    importPJSONFile: new PJSON('./index2.pjson'),
+    getFile: new GET('http://www.powerjson.org'),
+    tenDaySeconds: 60 * 60 * 24 * 10
+    // here is the comment!
+    /* comment2 */
+}
+```
+
 ### Compatibility
 PowerJSON supports all **browsers / js runtime** that support [ES6](https://caniuse.com/#feat=es6).
 
@@ -22,13 +41,13 @@ PowerJSON supports all **browsers / js runtime** that support [ES6](https://cani
 **Node.js:**
 - Nodejs >= 6
 
-## Documentation
+### Documentation
 To check out live examples and [docs](http://www.powerjson.org/docs/v1/), visit [powerjson.org](http://www.powerjson.org).
 
-## Changelog
+### Changelog
 Detailed changes for each release are documented in the [release notes](https://github.com/PowerJSON/PowerJSON/releases).
 
-## License
+### License
 [MIT](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2019-present, Yingxuan (Bill) Dong
