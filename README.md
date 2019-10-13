@@ -9,7 +9,7 @@ It supports **single quoted strings**, **multi-line strings**, **comments**, **o
 </div>
 
 ### Compatibility
-PowerJSON supports all **browsers / js runtime** that support ES6.
+PowerJSON supports all **browsers / js runtime** that support [ES6](https://caniuse.com/#feat=es6).
 
 **Browser:**
 - IE >= 11
@@ -21,3 +21,14 @@ PowerJSON supports all **browsers / js runtime** that support ES6.
 
 **Node.js:**
 - Nodejs >= 6
+
+## Documentation
+To check out live examples and [docs](http://www.powerjson.org/docs/v1/), visit [powerjson.org](http://www.powerjson.org).
+
+## Changelog
+Detailed changes for each release are documented in the [release notes](https://github.com/PowerJSON/PowerJSON/releases).
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2019-present, Yingxuan (Bill) Dong
