@@ -11,6 +11,7 @@ It supports **single quoted strings**, **multi-line strings**, **comments**, **o
 ### Simple Demo
 ```javascript
 {
+    // strings
     helloText: 'hello world',
     MultiLineText: `
         Welcome
@@ -18,10 +19,12 @@ It supports **single quoted strings**, **multi-line strings**, **comments**, **o
         PowerJSON!
     `,
 
+    // file and import
     myFile: new File('./file.txt'),
     importPJSONFile: new PJSON('./index2.pjson'),
     getFile: new GET('http://www.powerjson.org'),
 
+    // operator
     tenDaySeconds: 60 * 60 * 24 * 10
 
     // here is the comment!
