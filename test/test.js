@@ -5,6 +5,10 @@ const pjson = require('./../index.node');
 async function init() {
     console.log(pjson.parse(`
         {
+            //this is our helloText
+            /*
+                welcome to powerjson!
+             */
             text: 'hello'
         }
     `));
@@ -13,6 +17,10 @@ async function init() {
 
     console.log(pjson.stringify(pjson.parse(`
         {
+            //this is our helloText
+            /*
+                welcome to powerjson!
+             */
             text: 'hello'
         }
     `)))

@@ -182,7 +182,7 @@ brackets
 
 // ----- 4. Objects -----
 file
-    = "new" [ ]+ "File" ws "(" ws filepath:string ws ")" {
+    = "new" [ ]+ "File" ws "(" ws filepath:expression ws ")" {
         const xmlhttp = new XMLHttpRequest();
         xmlhttp.open("GET", filepath, false);
         xmlhttp.send();
@@ -190,12 +190,12 @@ file
     }
 
 get
-    = "new" [ ]+ "GET" ws "(" ws url:string ws ")" {
+    = "new" [ ]+ "GET" ws "(" ws url:expression ws ")" {
         return syncRequest('GET', url).getBody().toString();
     }
 
 import
-    = "new" [ ]+ "PJSON" ws "(" ws filepath:string ws ")" {
+    = "new" [ ]+ "PJSON" ws "(" ws filepath:expression ws ")" {
         const xmlhttp = new XMLHttpRequest();
         xmlhttp.open("GET", filepath, false);
         xmlhttp.send();
