@@ -44,7 +44,7 @@ PowerJSON supports all **browsers / js runtime** that support [ES6](https://cani
 - Nodejs >= 6
 
 ### Documentation
-To check out live examples and [docs](http://www.powerjson.org/docs/), visit [powerjson.org](http://www.powerjson.org).
+To check out live examples and [docs](http://www.powerjson.org/), visit [powerjson.org](http://www.powerjson.org).
 
 ### Changelog
 Detailed changes for each release are documented in the [release notes](https://github.com/PowerJSON/PowerJSON/releases).
