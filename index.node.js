@@ -19,7 +19,7 @@ function parseFile(filepath) {
     return new Promise(function(res, rej) {
         const pjsonFile = fs.readFile(filepath, function(err, pjsonFile) {
             if (err) {
-                rej();
+                rej(err);
                 return;
             }
             res(parser.parse(pjsonFile.toString(), {
@@ -52,7 +52,7 @@ function stringifyFile(filepath, pjson) {
     return new Promise(function(res, rej) {
         fs.writeFile(filepath, JSON.stringify(pjson), function(err) {
             if (err) {
-                rej();
+                rej(err);
                 return;
             }
             res();

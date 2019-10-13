@@ -1,3 +1,0 @@
-{
-    hh: new PJSON('./test')
-}
