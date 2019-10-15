@@ -6,7 +6,8 @@
     "scripts": {
         "build": "pegjs --cache parser/pjson.node.pegjs && pegjs --cache parser/pjson.browser.pegjs",
         "start": "npm run build && npm run test",
-        "test": "node ./test/test.js"
+        "test": "node ./test/test.js",
+        "pub": "npm publish --access public"
     },
     "keywords": [
         "json",
