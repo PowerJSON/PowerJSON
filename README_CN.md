@@ -32,6 +32,9 @@
 }
 ```
 
+### 仓库
+PowerJSON 在 [Github](https://github.com/PowerJSON/PowerJSON) [Gitee](https://gitee.com/PowerJSON/PowerJSON) [NPM](https://www.npmjs.com/package/@powerjson/powerjson) 上托管仓库。
+
 ### 兼容性
 PowerJSON 支持所有兼容 [ES6](https://caniuse.com/#feat=es6) 的 **浏览器 / js 运行时**。
 

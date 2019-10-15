@@ -32,6 +32,9 @@ It supports **single quoted strings**, **multi-line strings**, **comments**, **o
 }
 ```
 
+### Repository
+PowerJSON released on [Github](https://github.com/PowerJSON/PowerJSON) [Gitee](https://gitee.com/PowerJSON/PowerJSON) [NPM](https://www.npmjs.com/package/@powerjson/powerjson).
+
 ### Compatibility
 PowerJSON supports all **browsers / js runtime** that support [ES6](https://caniuse.com/#feat=es6).
 
