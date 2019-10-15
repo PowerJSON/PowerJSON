@@ -33,8 +33,8 @@
 ```
 
 ### 生态系统
-#### 聊天室
-为什么不加入我们的在线 PowerJSON CN [Gitter 聊天室](https://gitter.im/powerjson-cn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)？[![Gitter](https://badges.gitter.im/powerjson-cn/community.svg)](https://gitter.im/powerjson-cn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+#### 聊天室 [![Gitter](https://badges.gitter.im/powerjson-cn/community.svg)](https://gitter.im/powerjson-cn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+为什么不加入我们的在线 PowerJSON CN [Gitter 聊天室](https://gitter.im/powerjson-cn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)？
 
 #### 仓库
 PowerJSON 在 [Github](https://github.com/PowerJSON/PowerJSON) / [Gitee](https://gitee.com/PowerJSON/PowerJSON) / [NPM](https://www.npmjs.com/package/@powerjson/powerjson) 上托管仓库。

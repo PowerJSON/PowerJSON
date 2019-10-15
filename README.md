@@ -33,8 +33,8 @@ It supports **single quoted strings**, **multi-line strings**, **comments**, **o
 ```
 
 ### Ecosystem
-#### Gitter
-Why not join our online PowerJSON [Gitter Room](https://gitter.im/powerjson-en/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)? [![Gitter](https://badges.gitter.im/powerjson-en/community.svg)](https://gitter.im/powerjson-en/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+#### Gitter [![Gitter](https://badges.gitter.im/powerjson-en/community.svg)](https://gitter.im/powerjson-en/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Why not join our online PowerJSON [Gitter Room](https://gitter.im/powerjson-en/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)?
 
 #### Repository
 PowerJSON released on [Github](https://github.com/PowerJSON/PowerJSON) / [Gitee](https://gitee.com/PowerJSON/PowerJSON) / [NPM](https://www.npmjs.com/package/@powerjson/powerjson).
