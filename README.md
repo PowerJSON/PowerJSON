@@ -1,5 +1,5 @@
 <div align='center'>
-<img src='https://powerjson.github.io/PowerJSON-Website-CN/logo-noopa.jpeg' height='200px'>
+<img src='https://powerjson.github.io/PowerJSON-Website/logo-noopa.jpeg' height='200px'>
 
 <h1>PowerJSON</h1>
 
